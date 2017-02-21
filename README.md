@@ -26,3 +26,7 @@ Implements:
 - Interface to JVM to call a function processing phrase-structure trees using Stanford Dependency Parser (edu.stanford.nlp.trees.EnglishGrammaticalStructure)
 - Selects target phrase-structure subtrees and returns the typed dependency tuples
 - Scores tuples of (verb, dependency relation, argument) using a language model P(arg| verb,rel)
+
+Relations.java: 
+
+Function ProcessSentence() is called from the Moses feature. Gets as input a serialized phrase-structure tree and returns dependency relations extracted from this tree.
