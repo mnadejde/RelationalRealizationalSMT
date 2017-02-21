@@ -26,6 +26,7 @@ Implements:
 - Interface to JVM to call a function processing phrase-structure trees using Stanford Dependency Parser (edu.stanford.nlp.trees.EnglishGrammaticalStructure)
 - Selects target phrase-structure subtrees and returns the typed dependency tuples
 - Scores tuples of (verb, dependency relation, argument) using a language model P(arg| verb,rel)
+- Two layer caching for phrase-structure subtrees and typed dependency tuples
 
 Relations.java: 
 
